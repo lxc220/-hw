@@ -43,7 +43,7 @@ def mysvd(A):
     return U, Sigma, V
 
 # 讀取影像檔, 並保留亮度成分
-img = cv2.imread('data/svd_demo1.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('data/svd_demo2.jpg', cv2.IMREAD_GRAYSCALE)
 
 # convert img to float data type
 A = img.astype(dtype=np.float64)
